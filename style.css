@@ -170,6 +170,38 @@ h1{
     box-shadow: 0px 8px 8px rgb(0, 0, 0, 0.6);
     border-radius: 9px;
 }
+/* LOGO------------------------------------------------------------------- */
+.box__logo{
+    width: 100%;
+}
+.img-sinovac{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/8/85/Sinovac_logo.svg);
+}
+.img-pfizer{
+    background: url(./logo/pfizer.png);
+}
+.img-moderna{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/6/6a/Moderna_logo.svg);
+}
+.box__sizes{
+    width: 25%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.img-astrazeneca{
+    background: url(./logo/pngwing.com.png);
+    width: 24%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    display: inline-block;
+}
 
 /* FOOTHER--------------------------------------------------------------- */
 
@@ -280,6 +312,17 @@ footer{
         
         transition-duration: 0.5s;
     }
+    /* logo------------------------------------- */
+    .box__sizes{
+        width: 24%;
+        height: 150px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+    /* foother------------------------------------ */
     .box__footer{
         padding: 0;
         margin-bottom: 25px;
@@ -347,6 +390,17 @@ footer{
         font-weight: bold;
         font-size: 16px;
     }
+    /* logo--------------------------------------------- */
+    .box__sizes{
+        width: 24%;
+        height: 150px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+    /* foother------------------------------------------- */
     .logo{
         font-size: 22px;
     }
