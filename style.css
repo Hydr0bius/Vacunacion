@@ -48,7 +48,6 @@ img{
     width: 80px;
     vertical-align: middle;
     transition-duration: 0.5s;
-    /* box-shadow: 0px 0px 1px rgba(0, 0, 0, 0); */
 }
 .item-options:hover{
     color: #fff;
@@ -72,7 +71,7 @@ body::-webkit-scrollbar-thumb{
 /* Fight Virus With Vaccines----------------------------------------- */
 .contenedor0{
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     overflow: hidden;
 }
 .box1{
@@ -103,7 +102,7 @@ h1{
     display: inline-block;
 }
 .navegacion{
-    width: 45%;
+    width: 60%;
     margin-top: 5vh;
     margin-left: 20vh;
 }
