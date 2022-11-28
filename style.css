@@ -333,6 +333,16 @@ footer{
         
         transition-duration: 0.5s;
     }
+    /* logo------------------------------------- */
+    .box__sizes{
+        width: 24%;
+        height: 150px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        box-sizing: border-box;
+        display: inline-block;
+    }
     /* WHY----------------------------------------- */
     .box__why{
         width: 100%;
@@ -353,16 +363,6 @@ footer{
     .box__why0 p{
         color: #585252;
         font-size: 20px;
-    }
-    /* logo------------------------------------- */
-    .box__sizes{
-        width: 24%;
-        height: 150px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        box-sizing: border-box;
-        display: inline-block;
     }
     /* foother------------------------------------ */
     .box__footer{
@@ -442,6 +442,27 @@ footer{
         box-sizing: border-box;
         display: inline-block;
     }
+        /* WHY----------------------------------------- */
+        .box__why{
+            width: 100%;
+            height: 35vh;
+            margin-top: 0;
+            overflow: hidden;
+        }
+        .box__why0{
+            float: left;
+            width: 60%;
+            padding-left: 50px;
+        }
+        .box__why0 h2{
+            color: #1F3E72;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .box__why0 p{
+            color: #585252;
+            font-size: 20px;
+        }
     /* foother------------------------------------------- */
     .logo{
         font-size: 22px;
