@@ -280,6 +280,10 @@ footer{
         
         transition-duration: 0.5s;
     }
+    .box__footer{
+        padding: 0;
+        margin-bottom: 25px;
+    }
 
 }
 @media (max-width: 414px){
