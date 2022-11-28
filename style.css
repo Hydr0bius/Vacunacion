@@ -202,6 +202,27 @@ h1{
     box-sizing: border-box;
     display: inline-block;
 }
+/* WHY----------------------------------------- */
+.box__why{
+    width: 100%;
+    height: 40vh;
+    margin-top: 0;
+    overflow: hidden;
+}
+.box__why0{
+    float: left;
+    width: 32%;
+    padding-left: 100px;
+}
+.box__why0 h2{
+    color: #1F3E72;
+    font-size: 50px;
+    font-weight: bold;
+}
+.box__why0 p{
+    color: #585252;
+    font-size: 23px;
+}
 
 /* FOOTHER--------------------------------------------------------------- */
 
@@ -311,6 +332,27 @@ footer{
     
         
         transition-duration: 0.5s;
+    }
+    /* WHY----------------------------------------- */
+    .box__why{
+        width: 100%;
+        height: 56vh;
+        margin-top: 0;
+        overflow: hidden;
+    }
+    .box__why0{
+        float: left;
+        width: 32%;
+        padding-left: 100px;
+    }
+    .box__why0 h2{
+        color: #1F3E72;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .box__why0 p{
+        color: #585252;
+        font-size: 20px;
     }
     /* logo------------------------------------- */
     .box__sizes{
