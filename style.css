@@ -1,0 +1,275 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.color__p{
+    color: #6D7B93;
+    font-size: 23px;
+}
+.color__title{
+    color: #224074;
+    font-weight: bold;
+}
+img{
+    width: 16px;
+    height: 16px;
+}
+/* HEADER-------------------------------------------------------------- */
+.container{
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    opacity: 0.9;
+}
+.logo{
+    width: 40px;
+    margin: 0;
+    padding-right:3em;
+    color: #123ad6;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.item-options{
+    color: #585252;
+    margin: 1rem 0rem 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+    padding: 5px 30px;
+    width: 80px;
+    vertical-align: middle;
+    transition-duration: 0.5s;
+    /* box-shadow: 0px 0px 1px rgba(0, 0, 0, 0); */
+}
+.item-options:hover{
+    color: #fff;
+    background: #3463db;
+    background: -webkit-linear-gradient(to left, #2848c6, #3858d6);
+    box-shadow: 0px 8px 8px rgb(0, 0, 0, 0.6);
+    border-radius: 9px;
+    cursor: pointer;
+}
+/* scroll personalizado */
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background: #021B79;
+}
+body::-webkit-scrollbar-thumb{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    border-right: 2px solid #021B79;
+}
+/* Fight Virus With Vaccines----------------------------------------- */
+.contenedor0{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+.box1{
+    float: right;
+    width: 50%;
+    height: 80vh;
+    background: url(./image/pexels-evg-kowalievska-4066427.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+.box2{
+    width:50%;
+    height: 80vh;
+    float: left;
+}
+.box2__contenedor{
+    width: 450px;
+    margin: 0 auto;
+}
+h1{
+    color: #1F3E72;
+    font-size: 60px;
+    font-weight: 700;
+}
+.box__quality{
+    display: inline-block;
+}
+.navegacion{
+    width: 45%;
+    margin-top: 5vh;
+    margin-left: 20vh;
+}
+.navegacion ul{
+    list-style: none;
+}
+.navegacion__menu > li{
+    position: relative;
+    display: inline-block;
+}
+.navegacion__menu > li > a{
+    display: block;
+    text-decoration: none;
+    color: #1F3E72;
+    font-weight: bold;
+    font-size: 25px;
+}
+.navegacion__menu li a:hover{
+    color: #ce7d35;
+    transition: 0.3S;
+}
+.navegacion__submenu{
+    width: 190%;
+    position: absolute;
+    background: #f0f0f0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+}
+.navegacion__submenu li{
+    display: inline-block;
+}
+.navegacion__submenu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #6e6d6d;
+    font-weight: bold;
+}
+.navegacion__submenu li p{
+    color: #021B79;
+    font-weight: bold;
+}
+.navegacion__menu li:hover .navegacion__submenu{
+    visibility: visible;
+    opacity: 0.9;
+}
+.decoration{
+    width: 100px;
+    vertical-align: middle;
+
+    color: #585252;
+    margin: 1rem 0rem 1rem 2rem;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+    
+    transition-duration: 0.5s;
+}
+.decoration:hover{
+    color: #fff;
+    background: #3463db;
+    background: -webkit-linear-gradient(to left, #2848c6, #3858d6);
+    box-shadow: 0px 8px 8px rgb(0, 0, 0, 0.6);
+    border-radius: 9px;
+}
+
+/* Responsive------------------------------------------------------------------ */
+@media (max-width: 1215px){
+    .logo{
+        font-size: 20px;
+        width: 20px;
+    }
+    .item-options{
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+    .navegacion{
+        width: 100%;
+        margin-top: 5vh;
+        margin-left: 8vh;
+    }
+    .navegacion__submenu{
+        width: 190%;
+        position: absolute;
+        background: #f0f0f0;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.4s;
+    }
+    .decoration{
+        width: 65px;
+        vertical-align: middle;
+    
+        color: #585252;
+        margin: 1rem 0rem 1rem 2rem;
+        align-items: center;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+    
+        
+        transition-duration: 0.5s;
+    }
+
+}
+@media (max-width: 412px){
+    .container{
+        padding: 0;
+    }
+    .logo{
+        font-size: 14px;
+        width: 20px;
+    }
+    .item-options{
+        font-size: 12px;
+        padding: 2px 2px;
+    }
+    .box2__contenedor{
+        width: 150px;
+        margin: 0 auto;
+    }
+    .box2__contenedor p{
+        font-size: 21px;
+    }
+    h1{
+        color: #1F3E72;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .box__quality p{
+        font-size: 15px;
+    }
+    .navegacion{
+        width: 100%;
+        margin-top: 5vh;
+        margin-left: 1vh;
+    }
+    .navegacion__submenu{
+        width: 190%;
+        position: absolute;
+        background: #f0f0f0;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.4s;
+    }
+    .decoration{
+        width: 95px;
+        vertical-align: middle;
+    
+        color: #585252;
+        margin: 1rem 0rem 1rem 2rem;
+        align-items: center;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+    
+        
+        transition-duration: 0.5s;
+    }
+    .navegacion__menu > li > a{
+        display: block;
+        text-decoration: none;
+        color: #1F3E72;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
