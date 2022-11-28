@@ -58,6 +58,17 @@ img{
     border-radius: 9px;
     cursor: pointer;
 }
+/* scroll personalizado */
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background: #021B79;
+}
+body::-webkit-scrollbar-thumb{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    border-right: 2px solid #021B79;
+}
 
 /* Responsive------------------------------------------------------------------ */
 @media (max-width: 1215px){
