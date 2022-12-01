@@ -223,7 +223,193 @@ h1{
     color: #585252;
     font-size: 23px;
 }
-
+/* BOX INFO------------------------------------------------------------ */
+.box__info{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    box-sizing: border-box;
+    top: 0;
+}
+.box__info div{
+    width: 18%;
+    height: 35vh;
+    margin: 10px;
+    transition-duration: 0.4s;
+}
+.box__info img{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+.box__info h3{
+    margin-left: 5px;
+    align-items: center;
+    width: 80%;
+    margin-top: 0;
+    color: #1F3E72;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box__info p{
+    margin-left: 5px;
+    color: #585252;
+    font-size: 22px;
+    align-items: center;
+}
+.box__info div:hover{
+    box-shadow: 4px 4px 40px rgb(0, 0, 0, 0.6);
+    border-radius: 9px;
+}
+/* PREPARATIONS BEFORE VACCINE------------------------------------------- */
+.box__preparations{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.img-preparationsVaccine{
+    background: url(./image/pexels-antoni-shkraba-5214949.jpg);
+    width: 35%;
+    height: 90vh;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    box-sizing: border-box;
+}
+.preparationVaccine{
+    float: right;
+    width: 50%;
+}
+.preparationVaccine h2{
+    color: #1F3E72;
+    font-size: 50px;
+    font-weight: bold;
+}
+.preparationVaccine p{
+    width: 70%;
+    font-size: 25px;
+    color: #585252;
+}
+.preparationVaccine img{
+    width: 40px;
+    height: 40px;
+}
+/* SUBMENU2-------------------------------------------------------------- */
+.preparation__nav{
+    width: 45%;
+    height: 90%;
+    margin-left: 10vh;
+}
+.preparation__nav ul{
+    list-style: none;
+}
+.preparation__menu0 > li{
+    position: relative;
+    display: inline-block;
+}
+.preparation__menu0 > li > h3{
+    display: block;
+    text-decoration: none;
+    color: #1F3E72;
+    font-weight: bold;
+    font-size: 25px;
+}
+.preparation__menu0 li h3:hover{
+    color: #ce7d35;
+    margin: 20px;
+    transition: 0.3S;
+}
+.preparation__submenu0{
+    width: 150%;
+    position: absolute;
+    background: #f1f1f1;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+}
+.preparation__submenu0 li{
+    display: inline-block;
+}
+.preparation__submenu0 p{
+    color: #585252;
+    font-weight: bold;
+    font-size: 20px;
+}
+.preparation__menu0 li:hover .preparation__submenu0 {
+    z-index: 100;
+    box-shadow: 4px 4px 40px rgb(0, 0, 0, 0.6);
+    visibility: visible;
+    opacity: 1;
+}
+/* BOX__END -------------------------------------------------------------- */
+.box__end{
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+.img-emergencyContact{
+    background: url(./image/pexels-antoni-shkraba-6749773.jpg);
+    width: 45%;
+    height: 120vh;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+.end__inf{
+    width: 50%;
+}
+.end__inf h2{
+    color: #021B79;
+}
+.end__inf p{
+    color: #585252;
+    font-size: 25px;
+}
+.end__contenedor{
+    width: 50%;
+    height: 50vh;
+}
+.end__contenedor div{
+    width: 30%;
+    margin: 20px;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+.end__contenedor h3{
+    color: #123ad6;
+}
+.end__contenedor p{
+    color: #585252;
+}
+.end__contenedor img{
+    width: 40px;
+    height: 40px;
+}
+.end__contenedor button{
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+    background: #123ad6;
+    color: #f0f0f0;
+    background-position: center;
+    transition-duration: 0.3s;
+}
+.end__contenedor div:hover{
+    box-shadow: 15px 8px 40px rgb(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+.end__contenedor button:hover{
+    width: 170px;
+    height: 50px;
+    background: #021B79;
+    border-radius: 10px;
+}
 /* FOOTHER--------------------------------------------------------------- */
 
 footer{
@@ -364,6 +550,48 @@ footer{
         color: #585252;
         font-size: 20px;
     }
+    /* box info -------------------------------------------- */
+    .box__info div{
+        width: 20%;
+        height: 40vh;
+        margin: 10px;
+    }
+    .box__info img{
+        margin: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    .box__info h3{
+        margin-left: 5px;
+        width: 80%;
+        margin-top: 0;
+        color: #1F3E72;
+        font-size: 25px;
+    }
+    .box__info p{
+        margin-left: 5px;
+        font-size: 17px;
+    }
+    /* BOX__END -------------------------------------------------------------- */
+    .box__end{
+        width: 100%;
+        height: 90vh;
+        overflow: hidden;
+    }
+    .end__contenedor{
+        width: 50%;
+        height: 50vh;
+    }
+    .end__contenedor img{
+        width: 20px;
+        height: 20px;
+    }
+    .end__contenedor div:hover{
+        width: 40%;
+    }
+    .end__contenedor button:hover{
+        width: 150px;
+    }
     /* foother------------------------------------ */
     .box__footer{
         padding: 0;
@@ -442,26 +670,150 @@ footer{
         box-sizing: border-box;
         display: inline-block;
     }
-        /* WHY----------------------------------------- */
-        .box__why{
-            width: 100%;
-            height: 35vh;
-            margin-top: 0;
-            overflow: hidden;
-        }
-        .box__why0{
-            float: left;
-            width: 60%;
-            padding-left: 50px;
-        }
-        .box__why0 h2{
-            color: #1F3E72;
-            font-size: 40px;
-            font-weight: bold;
-        }
-        .box__why0 p{
-            color: #585252;
+    /* WHY----------------------------------------- */
+    .box__why{
+        width: 100%;
+        height: 35vh;
+        margin-top: 0;
+        overflow: hidden;
+    }
+    .box__why0{
+        float: left;
+        width: 60%;
+        padding-left: 50px;
+    }
+    .box__why0 h2{
+        color: #1F3E72;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .box__why0 p{
+        color: #585252;
+        font-size: 20px;
+    }
+    /* box info -------------------------------------------- */
+    .box__info{
+        padding: 0;
+        height: 30vh;
+    }
+    .box__info div{
+        width: 20%;
+        height: 30vh;
+        margin: 10px;
+    }
+    .box__info img{
+        margin: 10px;
+        width: 20px;
+        height: 20px;
+    }
+    .box__info h3{
+        margin-left: 5px;
+        width: 80%;
+        margin-top: 0;
+        color: #1F3E72;
+        font-size: 15px;
+    }
+    .box__info p{
+        margin-left: 5px;
+        font-size: 10px;
+    }
+   /* PREPARATIONS BEFORE VACCINE------------------------------------------- */
+    .box__preparations{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .img-preparationsVaccine{
+        background: url(./image/pexels-antoni-shkraba-5214949.jpg);
+        width: 40%;
+        height: 90vh;
+        float: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        box-sizing: border-box;
+    }
+    .preparationVaccine{
+        float: right;
+        width: 50%;
+    }
+    .preparationVaccine h2{
+        color: #1F3E72;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .preparationVaccine p{
+        width: 80%;
+        font-size: 15px;
+        color: #585252;
+    }
+    .preparationVaccine img{
+        width: 20px;
+        height: 20px;
+    }
+    /* SUBMENU2-------------------------------------------------------------- */
+    .preparation__nav{
+        width: 45%;
+        height: 90%;
+        margin-left: 0;
+    }
+    .preparation__menu0{
+        padding: 0;
+    }
+    .preparation__menu0 > li > h3{
+        font-size: 17px;
+    }
+    .preparation__menu0 li h3:hover{
+        margin: 20px;
+    }
+    .preparation__submenu0{
+        width: 150%;
+    }
+    .preparation__submenu0 p{
+        font-size: 12px;
+    }
+        /* BOX__END -------------------------------------------------------------- */
+        .end__inf h2{
             font-size: 20px;
+        }
+        .end__inf p{
+            font-size: 16px;
+        }
+        .box__end{
+            width: 100%;
+            height: 90vh;
+           overflow: hidden;
+        }
+        .end__contenedor{
+            width: 50%;
+            height: 70vh;
+        }
+        .end__contenedor div{
+            width: 50%;
+            margin: 2px;
+            display: inline-block;
+            transition-duration: 0.4s;
+        }
+        .end__contenedor img{
+            width: 20px;
+            height: 20px;
+        }
+        .end__contenedor h3{
+            font-size: 13px;
+        }
+        .end__contenedor p{
+            font-size: 11px;
+        }
+        .end__contenedor button{
+            margin-left: 0;
+            width: 80px;
+            border-radius: 10px;
+        }
+        .end__contenedor div:hover{
+            width: 70%;
+        }
+        .end__contenedor button:hover{
+            width: 100px;
         }
     /* foother------------------------------------------- */
     .logo{
@@ -481,6 +833,121 @@ footer{
     /* WHY----------------------------------------- */
     .box__why{
         height: 54vh;
+    }
+    /* box info -------------------------------------------- */
+    .box__info{
+        margin-top: 20px;
+        padding: 0;
+        height: 35vh;
+    }
+    .box__info div{
+        width: 20%;
+        height: 40vh;
+        margin: 10px;
+    }
+    .box__info img{
+        margin: 10px;
+        width: 20px;
+        height: 20px;
+    }
+    .box__info h3{
+        margin-left: 5px;
+        width: 80%;
+        margin-top: 0;
+        color: #1F3E72;
+        font-size: 14px;
+    }
+    .box__info p{
+        margin-left: 5px;
+        font-size: 10px;
+    }
+   /* PREPARATIONS BEFORE VACCINE------------------------------------------- */
+   .box__preparations{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    }
+    .img-preparationsVaccine{
+        width: 40%;
+        height: 90vh;
+    }
+    .preparationVaccine h2{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .preparationVaccine p{
+        width: 80%;
+        font-size: 12px;
+        color: #585252;
+    }
+    .preparationVaccine img{
+        width: 20px;
+        height: 20px;
+    }
+    /* SUBMENU2-------------------------------------------------------------- */
+    .preparation__nav{
+        width: 45%;
+        height: 90%;
+        margin-left: 0;
+    }
+    .preparation__menu0{
+        padding: 0;
+    }
+    .preparation__menu0 > li > h3{
+        font-size: 13px;
+        width: 100px;
+    }
+    .preparation__menu0 li h3:hover{
+        margin: 8px;
+    }
+    .preparation__submenu0{
+        width: 150%;
+    }
+    .preparation__submenu0 p{
+        font-size: 12px;
+    }
+    /* BOX__END -------------------------------------------------------------- */
+    .end__inf h2{
+        font-size: 20px;
+    }
+    .end__inf p{
+        font-size: 16px;
+    }
+    .box__end{
+        width: 100%;
+        height: 90vh;
+       overflow: hidden;
+    }
+    .end__contenedor{
+        width: 50%;
+        height: 70vh;
+    }
+    .end__contenedor div{
+        width: 50%;
+        margin: 2px;
+        display: inline-block;
+        transition-duration: 0.4s;
+    }
+    .end__contenedor img{
+        width: 20px;
+        height: 20px;
+    }
+    .end__contenedor h3{
+        font-size: 13px;
+    }
+    .end__contenedor p{
+        font-size: 11px;
+    }
+    .end__contenedor button{
+        margin-left: 0;
+        width: 80px;
+        border-radius: 10px;
+    }
+    .end__contenedor div:hover{
+        width: 70%;
+    }
+    .end__contenedor button:hover{
+        width: 100px;
     }
     /* foother------------------------------------------- */
     .logo{
