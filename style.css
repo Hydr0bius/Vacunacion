@@ -471,3 +471,23 @@ footer{
         padding: 0;
     }
 }
+@media (max-width: 393px){
+    /* WHY----------------------------------------- */
+    .box__why{
+        height: 40vh;
+    }
+}
+@media (max-width: 375px){
+    /* WHY----------------------------------------- */
+    .box__why{
+        height: 54vh;
+    }
+    /* foother------------------------------------------- */
+    .logo{
+        font-size: 20px;
+    }
+    .box__footer{
+        margin: 0px 0px 1px 1px;
+        padding: 0;
+    }
+}
