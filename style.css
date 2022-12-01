@@ -264,6 +264,87 @@ h1{
     box-shadow: 4px 4px 40px rgb(0, 0, 0, 0.6);
     border-radius: 9px;
 }
+/* PREPARATIONS BEFORE VACCINE------------------------------------------- */
+.box__preparations{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.img-preparationsVaccine{
+    background: url(./image/pexels-antoni-shkraba-5214949.jpg);
+    width: 35%;
+    height: 90vh;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    box-sizing: border-box;
+}
+.preparationVaccine{
+    float: right;
+    width: 50%;
+}
+.preparationVaccine h2{
+    color: #1F3E72;
+    font-size: 50px;
+    font-weight: bold;
+}
+.preparationVaccine p{
+    width: 70%;
+    font-size: 25px;
+    color: #585252;
+}
+.preparationVaccine img{
+    width: 40px;
+    height: 40px;
+}
+/* SUBMENU2-------------------------------------------------------------- */
+.preparation__nav{
+    width: 45%;
+    height: 90%;
+    margin-left: 10vh;
+}
+.preparation__nav ul{
+    list-style: none;
+}
+.preparation__menu0 > li{
+    position: relative;
+    display: inline-block;
+}
+.preparation__menu0 > li > h3{
+    display: block;
+    text-decoration: none;
+    color: #1F3E72;
+    font-weight: bold;
+    font-size: 25px;
+}
+.preparation__menu0 li h3:hover{
+    color: #ce7d35;
+    margin: 20px;
+    transition: 0.3S;
+}
+.preparation__submenu0{
+    width: 150%;
+    position: absolute;
+    background: #f1f1f1;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+}
+.preparation__submenu0 li{
+    display: inline-block;
+}
+.preparation__submenu0 p{
+    color: #585252;
+    font-weight: bold;
+    font-size: 20px;
+}
+.preparation__menu0 li:hover .preparation__submenu0 {
+    z-index: 100;
+    box-shadow: 4px 4px 40px rgb(0, 0, 0, 0.6);
+    visibility: visible;
+    opacity: 1;
+}
 /* FOOTHER--------------------------------------------------------------- */
 
 footer{
@@ -551,6 +632,61 @@ footer{
         margin-left: 5px;
         font-size: 10px;
     }
+   /* PREPARATIONS BEFORE VACCINE------------------------------------------- */
+    .box__preparations{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .img-preparationsVaccine{
+        background: url(./image/pexels-antoni-shkraba-5214949.jpg);
+        width: 40%;
+        height: 90vh;
+        float: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        box-sizing: border-box;
+    }
+    .preparationVaccine{
+        float: right;
+        width: 50%;
+    }
+    .preparationVaccine h2{
+        color: #1F3E72;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .preparationVaccine p{
+        width: 80%;
+        font-size: 15px;
+        color: #585252;
+    }
+    .preparationVaccine img{
+        width: 20px;
+        height: 20px;
+    }
+    /* SUBMENU2-------------------------------------------------------------- */
+    .preparation__nav{
+        width: 45%;
+        height: 90%;
+        margin-left: 0;
+    }
+    .preparation__menu0{
+        padding: 0;
+    }
+    .preparation__menu0 > li > h3{
+        font-size: 17px;
+    }
+    .preparation__menu0 li h3:hover{
+        margin: 20px;
+    }
+    .preparation__submenu0{
+        width: 150%;
+    }
+    .preparation__submenu0 p{
+        font-size: 12px;
+    }
     /* foother------------------------------------------- */
     .logo{
         font-size: 22px;
@@ -597,6 +733,51 @@ footer{
         margin-left: 5px;
         font-size: 10px;
     }
+   /* PREPARATIONS BEFORE VACCINE------------------------------------------- */
+   .box__preparations{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.img-preparationsVaccine{
+    width: 40%;
+    height: 90vh;
+}
+.preparationVaccine h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+.preparationVaccine p{
+    width: 80%;
+    font-size: 12px;
+    color: #585252;
+}
+.preparationVaccine img{
+    width: 20px;
+    height: 20px;
+}
+/* SUBMENU2-------------------------------------------------------------- */
+.preparation__nav{
+    width: 45%;
+    height: 90%;
+    margin-left: 0;
+}
+.preparation__menu0{
+    padding: 0;
+}
+.preparation__menu0 > li > h3{
+    font-size: 13px;
+    width: 100px;
+}
+.preparation__menu0 li h3:hover{
+    margin: 8px;
+}
+.preparation__submenu0{
+    width: 150%;
+}
+.preparation__submenu0 p{
+    font-size: 12px;
+}
     /* foother------------------------------------------- */
     .logo{
         font-size: 20px;
