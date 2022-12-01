@@ -223,7 +223,47 @@ h1{
     color: #585252;
     font-size: 23px;
 }
-
+/* BOX INFO------------------------------------------------------------ */
+.box__info{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    box-sizing: border-box;
+    top: 0;
+}
+.box__info div{
+    width: 18%;
+    height: 35vh;
+    margin: 10px;
+    transition-duration: 0.4s;
+}
+.box__info img{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+.box__info h3{
+    margin-left: 5px;
+    align-items: center;
+    width: 80%;
+    margin-top: 0;
+    color: #1F3E72;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box__info p{
+    margin-left: 5px;
+    color: #585252;
+    font-size: 22px;
+    align-items: center;
+}
+.box__info div:hover{
+    box-shadow: 4px 4px 40px rgb(0, 0, 0, 0.6);
+    border-radius: 9px;
+}
 /* FOOTHER--------------------------------------------------------------- */
 
 footer{
@@ -364,6 +404,28 @@ footer{
         color: #585252;
         font-size: 20px;
     }
+    /* box info -------------------------------------------- */
+    .box__info div{
+        width: 20%;
+        height: 40vh;
+        margin: 10px;
+    }
+    .box__info img{
+        margin: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    .box__info h3{
+        margin-left: 5px;
+        width: 80%;
+        margin-top: 0;
+        color: #1F3E72;
+        font-size: 25px;
+    }
+    .box__info p{
+        margin-left: 5px;
+        font-size: 17px;
+    }
     /* foother------------------------------------ */
     .box__footer{
         padding: 0;
@@ -442,27 +504,53 @@ footer{
         box-sizing: border-box;
         display: inline-block;
     }
-        /* WHY----------------------------------------- */
-        .box__why{
-            width: 100%;
-            height: 35vh;
-            margin-top: 0;
-            overflow: hidden;
-        }
-        .box__why0{
-            float: left;
-            width: 60%;
-            padding-left: 50px;
-        }
-        .box__why0 h2{
-            color: #1F3E72;
-            font-size: 40px;
-            font-weight: bold;
-        }
-        .box__why0 p{
-            color: #585252;
-            font-size: 20px;
-        }
+    /* WHY----------------------------------------- */
+    .box__why{
+        width: 100%;
+        height: 35vh;
+        margin-top: 0;
+        overflow: hidden;
+    }
+    .box__why0{
+        float: left;
+        width: 60%;
+        padding-left: 50px;
+    }
+    .box__why0 h2{
+        color: #1F3E72;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .box__why0 p{
+        color: #585252;
+        font-size: 20px;
+    }
+    /* box info -------------------------------------------- */
+    .box__info{
+        padding: 0;
+        height: 30vh;
+    }
+    .box__info div{
+        width: 20%;
+        height: 30vh;
+        margin: 10px;
+    }
+    .box__info img{
+        margin: 10px;
+        width: 20px;
+        height: 20px;
+    }
+    .box__info h3{
+        margin-left: 5px;
+        width: 80%;
+        margin-top: 0;
+        color: #1F3E72;
+        font-size: 15px;
+    }
+    .box__info p{
+        margin-left: 5px;
+        font-size: 10px;
+    }
     /* foother------------------------------------------- */
     .logo{
         font-size: 22px;
@@ -481,6 +569,33 @@ footer{
     /* WHY----------------------------------------- */
     .box__why{
         height: 54vh;
+    }
+    /* box info -------------------------------------------- */
+    .box__info{
+        margin-top: 20px;
+        padding: 0;
+        height: 35vh;
+    }
+    .box__info div{
+        width: 20%;
+        height: 40vh;
+        margin: 10px;
+    }
+    .box__info img{
+        margin: 10px;
+        width: 20px;
+        height: 20px;
+    }
+    .box__info h3{
+        margin-left: 5px;
+        width: 80%;
+        margin-top: 0;
+        color: #1F3E72;
+        font-size: 14px;
+    }
+    .box__info p{
+        margin-left: 5px;
+        font-size: 10px;
     }
     /* foother------------------------------------------- */
     .logo{
