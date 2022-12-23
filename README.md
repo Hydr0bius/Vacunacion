@@ -5,7 +5,7 @@ Practica CSS3 de los temas vistos en el **LauncherLATAM**, el cual se tenia que 
 Debe tener los siguientes requisitos:
 
 * Maquetación del sition con HTML
-* Estilos con CSS (Lo más acerdadi posible, pueden ser otras imágenes, íconos o colores).
+* Estilos con CSS (Lo más acercado posible, pueden ser otras imágenes, íconos o colores).
 
 ---
 
