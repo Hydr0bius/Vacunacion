@@ -39,7 +39,7 @@ Se implemento un nav con el estilo sticky
 }
 ```
 
-Así como cambios en el scrool para que tenga un estilo personalizado de color azul:
+Así como cambios en el scroll para que tenga un estilo personalizado de color azul:
 
 ```CSS
 body::-webkit-scrollbar{
