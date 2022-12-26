@@ -9,6 +9,8 @@ Debe tener los siguientes requisitos:
 
 ---
 
+![header](image/portada.png)
+
 Se implemento un nav con el estilo sticky
 
 ```HTML
@@ -54,5 +56,7 @@ body::-webkit-scrollbar-thumb{
 ```
 
 Se logro el objetivo esperado, Se recomienda mejorar y prácticar en el responsive...
+
+![contenido](./image/contenido.png)
 
 [link](https://hydr0bius.github.io/Vacunacion/) de la práctica.
